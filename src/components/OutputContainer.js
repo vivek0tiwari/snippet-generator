@@ -49,7 +49,9 @@ export const OutputContainer = ({ changeMode, ...props }) => {
       <div className="column-bottom">
         {renderSnippet(mode, props)}
         <div className="copy-button-container">
-          <button className={`mode-button button-${mode}`}>Copy Snippet</button>
+          <button className={`mode-button button-${mode}`} onClick={() => {}}>
+            Copy Snippet
+          </button>
         </div>
       </div>
     </div>
