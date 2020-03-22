@@ -13,6 +13,7 @@ const renderSnippet = (mode, props) => {
   return null;
 };
 export const OutputContainer = ({ changeMode, ...props }) => {
+  // todo: copy snippet function
   const { mode } = props;
   return (
     <div className="container-column">
